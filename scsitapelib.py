@@ -1,3 +1,15 @@
+#!/usr/local/bin/python
+##########################################################
+#  tapelib 0.9                                           #
+#                                                        #
+#    DESCRIPTION                                         #
+#    and extracts information about reel/scene/take #s,  #
+#    along with timecodes and TARball index files within #
+#    S-two LTO4 backup tapes for ARRI D21 DPX frames.    #
+#                                                        #
+#    Copyright (C) 2010 Walter Arrighetti, PhD           #
+#    All Rights Reserved.                                #
+##########################################################
 import subprocess
 import tarfile
 import fnmatch
